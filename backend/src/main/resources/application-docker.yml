@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://postgres:5432/voting}
+    username: ${DB_USERNAME:voting}
+    password: ${DB_PASSWORD:voting}
+    driver-class-name: org.postgresql.Driver
+
